@@ -12,7 +12,7 @@
 - [Basic OOP](Module1/Basic_OOP.pdf)
 - [Tree Data Structure](<Module1/Tree Data Structure.pdf>)
 - [Build Package In Python](Module1/Build-Package-In-Python.pdf)
-- [Common Errors OOP Pythin](Module1/Common_Errors_OOP_Python.pdf)
+- [Common Errors OOP Python](Module1/Common_Errors_OOP_Python.pdf)
 
 ### Exercises
 
