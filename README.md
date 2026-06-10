@@ -4,6 +4,7 @@
 
 ### Python Basic
 
+- [Notebook Python/Data basic](Module1/AIO-2026-WarmUp.pdf)
 - [Variable](Module1/Varible.pdf)
 - [While Loop](Module1/WhileLoop.pdf)
 - [For Loop](Module1/ForLoop.pdf)
@@ -11,8 +12,14 @@
 - [Data Structure](Module1/DataStructure.pdf)
 - [Basic OOP](Module1/Basic_OOP.pdf)
 - [Tree Data Structure](<Module1/Tree Data Structure.pdf>)
+
+
+### Python Advanced
+
 - [Build Package In Python](Module1/Build-Package-In-Python.pdf)
 - [Common Errors OOP Python](Module1/Common_Errors_OOP_Python.pdf)
+- [Code Methodology In Python](Module1/coding_methodology_in_python_v05.pdf)
+- [Python Excel](Module1/Python_Excel.pdf)
 
 ### Exercises
 
