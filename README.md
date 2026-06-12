@@ -29,6 +29,7 @@
 
 ### Projects
 
-- [Streamlit Project](Module1/StreamlitProject.pdf)
+- [Streamlit Project 1](Module1/StreamlitProject.pdf)
+- [Streamlit Project 2](Module1/Streamlit2.pdf)
 - [Project RAG Description](Module1/AIO2024_Module01_Project_RAG_Description.pdf)
 - [Project YOLOv10 Description](Module1/AIO2024_Module01_Project_YOLOv10_Description.pdf)
