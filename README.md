@@ -29,13 +29,8 @@
 
 ### Projects
 
-<<<<<<< HEAD
-- [Streamlit Project 1](Module1/StreamlitProject.pdf)
-- [Streamlit Project 2](Module1/Streamlit2.pdf)
-- [Project RAG Description](Module1/AIO2024_Module01_Project_RAG_Description.pdf)
-- [Project YOLOv10 Description](Module1/AIO2024_Module01_Project_YOLOv10_Description.pdf)
-=======
 - [Streamlit Project](Module1/StreamlitProject.pdf)
+- [Streamlit Project 2](Module1/Streamlit2.pdf)
 - [Text Project: QA with PDF file (LLM)](Module1/AIO2024_Module01_Project_RAG_Description.pdf)
 - [Project Working safety monitoring using Yolov10](Module1/AIO2024_Module01_Project_YOLOv10_Description.pdf)
->>>>>>> 1e6807919e7fc4fbd35c231344ed98a65dc61019
+
