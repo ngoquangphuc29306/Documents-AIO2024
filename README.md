@@ -21,6 +21,10 @@
 - [Code Methodology In Python](Module1/coding_methodology_in_python_v05.pdf)
 - [Python Excel](Module1/Python_Excel.pdf)
 
+### Introduction
+
+- [Slide Streamlit](Module1/[Slide]-Streamlit.pdf)
+
 ### Exercises
 
 - [EX Basic Python](Module1/EX-BasicPython.pdf)
