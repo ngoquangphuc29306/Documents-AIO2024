@@ -36,5 +36,5 @@
 - [Streamlit Project](Module1/StreamlitProject.pdf)
 - [Streamlit Project 2](Module1/Streamlit2.pdf)
 - [Text Project: QA with PDF file (LLM)](Module1/AIO2024_Module01_Project_RAG_Description.pdf)
-- [Project Working safety monitoring using Yolov10](Module1/AIO2024_Module01_Project_YOLOv10_Description.pdf)
+- [Project Bike Helmet Detection using Yolo11](Module1/AIO2024_Module01_Project_YOLOv10_Description.pdf)
 
