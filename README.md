@@ -10,7 +10,7 @@
 - [For Loop](Module1/ForLoop.pdf)
 - [String](Module1/String.pdf)
 - [Data Structure](Module1/DataStructure.pdf)
-- [Basic OOP](Module1/Basic_OOP.pdf)
+- [Basic OOP](Module1/Object_Orientation_Programming.pdf)
 - [Tree Data Structure](<Module1/Tree Data Structure.pdf>)
 
 
