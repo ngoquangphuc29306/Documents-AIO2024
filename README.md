@@ -39,3 +39,10 @@
 - [Text Project: QA with PDF file (LLM)](Module1/AIO2024_Module01_Project_RAG_Description.pdf)
 - [Project Bike Helmet Detection using Yolo11](Module1/AIO2024_Module01_Project_YOLOv10_Description.pdf)
 
+## Module 2
+
+### Library
+- [NumPy and OpenCv](Module2/NumPy_Opencv.pdf)
+
+### Execrise
+- [EX1W1](Module2/EX1W1.pdf)
