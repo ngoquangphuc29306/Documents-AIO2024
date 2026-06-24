@@ -24,6 +24,7 @@
 ### Introduction
 
 - [Slide Streamlit](Module1/[Slide]-Streamlit.pdf)
+- [Project-1.1-NLP-Applications-Streamlit](Module1/[Description-v1]-Project-1.1-NLP-Applications-Streamlit.pdf)
 
 ### Exercises
 
