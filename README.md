@@ -45,5 +45,11 @@
 ### Library
 - [NumPy and OpenCv](Module2/NumPy_Opencv.pdf)
 
+### Probability and statistic
+- [Gaussian Distribution](Module2/AIO2026-GaussianDistribution.pdf)
+- [Introduce Naive Bayes Classifiers](Module2/Introduce-Naive-Bayes-Classifiers.pdf)
+
 ### Execrise
 - [EX1W1](Module2/EX1W1.pdf)
+- [EX1W2](Module2/EX2W2.pdf)
+- [EX3W3](Module2/EX3W3.pdf)
