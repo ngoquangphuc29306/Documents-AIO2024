@@ -48,8 +48,10 @@
 ### Probability and statistic
 - [Gaussian Distribution](Module2/AIO2026-GaussianDistribution.pdf)
 - [Introduce Naive Bayes Classifiers](Module2/Introduce-Naive-Bayes-Classifiers.pdf)
+- [Basic Statistic](Module2/Basic-Statistic.pdf)
 
 ### Execrise
 - [EX1W1](Module2/EX1W1.pdf)
 - [EX1W2](Module2/EX2W2.pdf)
 - [EX3W3](Module2/EX3W3.pdf)
+- [EX3W4](Module2/EX4W4.pdf)
