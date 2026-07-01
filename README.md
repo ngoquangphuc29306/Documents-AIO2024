@@ -55,3 +55,7 @@
 - [EX1W2](Module2/EX2W2.pdf)
 - [EX3W3](Module2/EX3W3.pdf)
 - [EX3W4](Module2/EX4W4.pdf)
+
+## Project
+- [Message Classification](Module2/AIO2024_Module02_Project_Text_Classification_Description.pdf)
+- [Message Classification Slide](Module2/AIO2024_Module02_Project_Text_Classification_v4.pdf)
