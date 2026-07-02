@@ -58,6 +58,8 @@
 
 ## Project
 - [Message Classification](Module2/AIO2024_Module02_Project_Text_Classification_Description.pdf)
-- [Message Classification Slide](Module2/AIO2024_Module02_Project_Text_Classification_v4.pdf)
+- [(Slide) Message Classification](Module2/AIO2024_Module02_Project_Text_Classification_v4.pdf)
 - [Text Retrieval](Module2/Project_Image_Retrieval.pdf)
 - [(Slide) Text Retrieval](Module2/[Slide]_Project_Image_Retrieval_v2.pdf)
+- [Image Depth Estimation](Module2/AIO2024_Module02_Project_Image_Depth_Estimation_Description.pdf)
+- [(Slide) Image Depth Estimation](Module2/AIO2024_Module02_Project_Image_Depth_Estimation_v3.pdf)
