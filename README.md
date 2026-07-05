@@ -63,3 +63,10 @@
 - [(Slide) Text Retrieval](Module2/[Slide]_Project_Image_Retrieval_v2.pdf)
 - [Image Depth Estimation](Module2/AIO2024_Module02_Project_Image_Depth_Estimation_Description.pdf)
 - [(Slide) Image Depth Estimation](Module2/AIO2024_Module02_Project_Image_Depth_Estimation_v3.pdf)
+
+## Module 3
+
+### Week 1: Data analysis
+- [Introduction Pandas](Module3/notes/Extra_Pandas_v2.pdf)
+- [Data Visualization and Analysis Part 1](Module3/notes/Visualization&Analysis_Wed_v4.pdf)
+- [Data Visualization and Analysis Part 2](Module3/notes/Visualization&Analysis_Frid_v3.pdf)
