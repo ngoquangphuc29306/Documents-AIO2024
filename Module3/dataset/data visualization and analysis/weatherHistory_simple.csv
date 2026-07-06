@@ -1,11 +1,3 @@
-Precip Type,Temperature (C)
-rain,12.2
-rain,13.8
-rain,14.7
-rain,13.8
-rain,12.7
-rain,0.5
-snow,-0.4
-snow,-1.1
-snow,-1.6
-snow,-2.1
+version https://git-lfs.github.com/spec/v1
+oid sha256:94e4c31d2a77f9596e55303796c65e9ef6ffe9a105d19e6d96671cca7ba067bb
+size 138
