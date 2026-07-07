@@ -76,3 +76,4 @@
 | Data Cleaning with Pandas and SQL | [PDF](Module3/notes/DA-Using-SQL-Pandas.pdf) | [Data Retrieval](Module3/notebook/Data_Cleaning_With_Pandas_And_SQL/Data_Cleaning_With_Pandas_SQL.ipynb) |
 | Execrises | [PDF](Module3/notes/[Description]-Exercise-Data-Visualization-and-Analysis.pdf) | [Execrise](Module3/notebook/Execrise/DataAnalysisExecrise.ipynb)<br>[Introduction Polar](Module3/notebook/Execrise/[Colab]-Polars-Introduction.ipynb) |
 | Introduction Matplotlib | [Markdown](Module3/notes/A05_Matplotlib.md) | [Matplotlib Pylot](Module3/notebook/Data_Visualization_and_Analysis/Introduction_to_Matplotlib.ipynb) |
+| Introduction Seaborn | None | [Seaborn](Module3/notebook/Data_Visualization_and_Analysis/Seaborn_Tutorial.ipynb)
