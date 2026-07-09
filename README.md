@@ -77,3 +77,9 @@
 | Execrises | [PDF](Module3/notes/[Description]-Exercise-Data-Visualization-and-Analysis.pdf) | [Execrise](Module3/notebook/Execrise/DataAnalysisExecrise.ipynb)<br>[Introduction Polar](Module3/notebook/Execrise/[Colab]-Polars-Introduction.ipynb) |
 | Introduction Matplotlib | [Markdown](Module3/notes/A05_Matplotlib.md) | [Matplotlib Pylot](Module3/notebook/Data_Visualization_and_Analysis/Introduction_to_Matplotlib.ipynb) |
 | Introduction Seaborn | None | [Seaborn](Module3/notebook/Data_Visualization_and_Analysis/Seaborn_Tutorial.ipynb)
+
+### K-Nearest Neighbors (KNN)
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Introduction KNN | [PDF](Module3/notes/Introduction%20to%20KNN_v4.pdf) | [KNN](Module3/notebook/K-Nearest-Neighbors/Introduction_KNN.ipynb) |
