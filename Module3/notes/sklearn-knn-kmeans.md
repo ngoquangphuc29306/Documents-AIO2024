@@ -1,5 +1,7 @@
 # Hướng dẫn chi tiết K-Means, KNN, KD-Tree, Ball Tree và Classification Metrics trong Scikit-Learn
 
+> **Tương thích Markdown:** File này chỉ dùng các macro LaTeX phổ biến (`\frac`, `\sum`, `\sqrt`, `\mathbf`, `\mathrm`, `\left`, `\right`) và dùng `$...$` cho công thức inline. Các macro không tương thích đã được loại bỏ.
+
 > Tài liệu được chỉnh sửa và bổ sung từ bản Markdown ban đầu.  
 > Các công thức toán học đã được sửa lại theo cú pháp LaTeX chuẩn để hiển thị tốt trên GitHub, VS Code, Obsidian và Jupyter Notebook.
 > **Lưu ý hiển thị công thức:** Các công thức dạng khối được viết trên một dòng theo dạng `$$ công thức $$` để tránh lỗi ở một số trình Markdown.
@@ -59,27 +61,27 @@ print(X.shape)  # (3, 1)
 
 # 1. Phân cụm K-Means (`KMeans`)
 
-`sklearn.cluster.KMeans` là thuật toán học không giám sát, dùng để chia dữ liệu thành \(K\) cụm dựa trên khoảng cách giữa các điểm dữ liệu và các tâm cụm.
+`sklearn.cluster.KMeans` là thuật toán học không giám sát, dùng để chia dữ liệu thành $K$ cụm dựa trên khoảng cách giữa các điểm dữ liệu và các tâm cụm.
 
 ## 1.1. Mục tiêu toán học của K-Means
 
 K-Means tìm cách tối thiểu hóa **Within-Cluster Sum of Squares**, còn được gọi là **WCSS** hoặc **inertia**:
 
-$$ \operatorname{WCSS} = \sum_{i=1}^{K} \sum_{\mathbf{x}\in C_i} \left\| \mathbf{x}-\boldsymbol{\mu}_i \right\|_2^2 $$
+$$ \mathrm{WCSS} = \sum_{i=1}^{K} \sum_{\mathbf{x}\in C_i} \left\| \mathbf{x}-\mathbf{\mu}_i \right\|_2^2 $$
 
 Trong đó:
 
-- \(K\): số cụm;
-- \(C_i\): tập các điểm thuộc cụm thứ \(i\);
-- \(\mathbf{x}\): một điểm dữ liệu;
-- \(\boldsymbol{\mu}_i\): centroid của cụm \(i\);
-- \(\|\mathbf{x}-\boldsymbol{\mu}_i\|_2^2\): bình phương khoảng cách Euclid.
+- $K$: số cụm;
+- $C_i$: tập các điểm thuộc cụm thứ $i$;
+- $\mathbf{x}$: một điểm dữ liệu;
+- $\mathbf{\mu}_i$: centroid của cụm $i$;
+- $\|\mathbf{x}-\mathbf{\mu}_i\|_2^2$: bình phương khoảng cách Euclid.
 
-Centroid của cụm \(C_i\) được tính bằng trung bình của các điểm trong cụm:
+Centroid của cụm $C_i$ được tính bằng trung bình của các điểm trong cụm:
 
-$$ \boldsymbol{\mu}_i = \frac{1}{|C_i|} \sum_{\mathbf{x}\in C_i}\mathbf{x} $$
+$$ \mathbf{\mu}_i = \frac{1}{|C_i|} \sum_{\mathbf{x}\in C_i}\mathbf{x} $$
 
-Khoảng cách Euclid giữa hai vector \(\mathbf{x}\) và \(\mathbf{y}\):
+Khoảng cách Euclid giữa hai vector $\mathbf{x}$ và $\mathbf{y}$:
 
 $$ d(\mathbf{x},\mathbf{y}) = \sqrt{ \sum_{j=1}^{D} (x_j-y_j)^2 } $$
 
@@ -91,7 +93,7 @@ $$ d^2(\mathbf{x},\mathbf{y}) = \sum_{j=1}^{D} (x_j-y_j)^2 $$
 
 ## 1.2. Các bước của thuật toán
 
-1. Chọn \(K\) centroid ban đầu.
+1. Chọn $K$ centroid ban đầu.
 2. Gán mỗi điểm vào centroid gần nhất.
 3. Tính lại centroid của từng cụm.
 4. Lặp lại bước 2 và bước 3.
@@ -153,7 +155,7 @@ KMeans(init="k-means++")
 
 #### `init="random"`
 
-Chọn ngẫu nhiên \(K\) mẫu trong dữ liệu làm centroid.
+Chọn ngẫu nhiên $K$ mẫu trong dữ liệu làm centroid.
 
 ```python
 KMeans(init="random")
@@ -276,7 +278,7 @@ new_labels = kmeans.predict(X_new)
 
 Quy tắc dự đoán:
 
-$$ \widehat{c}(\mathbf{x}) = \underset{i\in\{1,\ldots,K\}}{\operatorname{argmin}} \left\| \mathbf{x}-\boldsymbol{\mu}_i \right\|_2 $$
+$$ \hat{c}(\mathbf{x}) = \underset{i\in\{1,\ldots,K\}}{\mathrm{arg\,min}} \left\| \mathbf{x}-\mathbf{\mu}_i \right\|_2 $$
 
 ---
 
@@ -325,7 +327,7 @@ score = kmeans.score(X)
 
 Thông thường:
 
-$$ \operatorname{score}(X) = -\operatorname{WCSS}(X) $$
+$$ \mathrm{score}(X) = -\mathrm{WCSS}(X) $$
 
 Do Scikit-Learn quy ước score càng lớn càng tốt, còn WCSS càng nhỏ càng tốt.
 
@@ -386,7 +388,7 @@ print(kmeans.n_features_in_)
 
 ## 1.7. Elbow Method
 
-Elbow Method thử nhiều giá trị \(K\), sau đó vẽ WCSS theo \(K\).
+Elbow Method thử nhiều giá trị $K$, sau đó vẽ WCSS theo $K$.
 
 ```python
 import matplotlib.pyplot as plt
@@ -428,12 +430,12 @@ KNN là **lazy learning**: model không học ra một phương trình tham số
 
 Với trọng số đồng đều:
 
-$$ \widehat{y} = \underset{c}{\operatorname{argmax}} \sum_{i\in N_K(\mathbf{x})} \mathbb{1}(y_i=c) $$
+$$ \hat{y} = \underset{c}{\mathrm{arg\,max}} \sum_{i\in N_K(\mathbf{x})} \mathbf{1}(y_i=c) $$
 
 Trong đó:
 
-- \(N_K(\mathbf{x})\): tập \(K\) hàng xóm gần nhất của \(\mathbf{x}\);
-- \(\mathbb{1}(y_i=c)\): bằng 1 nếu hàng xóm \(i\) thuộc lớp \(c\), ngược lại bằng 0.
+- $N_K(\mathbf{x})$: tập $K$ hàng xóm gần nhất của $\mathbf{x}$;
+- $\mathbf{1}(y_i=c)$: bằng 1 nếu hàng xóm $i$ thuộc lớp $c$, ngược lại bằng 0.
 
 Với `weights="distance"`:
 
@@ -449,11 +451,11 @@ Metric mặc định của KNN là Minkowski:
 
 $$ d_p(\mathbf{x},\mathbf{y}) = \left( \sum_{j=1}^{D} |x_j-y_j|^p \right)^{1/p} $$
 
-### Khi \(p=1\): Manhattan
+### Khi $p=1$: Manhattan
 
 $$ d_1(\mathbf{x},\mathbf{y}) = \sum_{j=1}^{D} |x_j-y_j| $$
 
-### Khi \(p=2\): Euclidean
+### Khi $p=2$: Euclidean
 
 $$ d_2(\mathbf{x},\mathbf{y}) = \sqrt{ \sum_{j=1}^{D} (x_j-y_j)^2 } $$
 
@@ -501,8 +503,8 @@ knn = KNeighborsClassifier(
 KNeighborsClassifier(n_neighbors=5)
 ```
 
-- \(K\) quá nhỏ: nhạy với nhiễu;
-- \(K\) quá lớn: ranh giới quyết định có thể quá mượt.
+- $K$ quá nhỏ: nhạy với nhiễu;
+- $K$ quá lớn: ranh giới quyết định có thể quá mượt.
 
 ### `weights`
 
@@ -611,7 +613,7 @@ Shape:
 
 Trả về mean accuracy:
 
-$$ \operatorname{Accuracy} = \frac{\text{số mẫu dự đoán đúng}} {\text{tổng số mẫu}} $$
+$$ \mathrm{Accuracy} = \frac{\text{số mẫu dự đoán đúng}} {\text{tổng số mẫu}} $$
 
 ```python
 accuracy = knn.score(X_test, y_test)
@@ -736,7 +738,7 @@ Không được gọi `fit_transform()` riêng trên tập test vì sẽ gây da
 
 KDTree và BallTree là các cấu trúc dữ liệu hỗ trợ truy vấn hàng xóm gần nhất.
 
-> Không nên khẳng định độ phức tạp luôn là \(O(\log N)\). Hiệu quả phụ thuộc số chiều, phân bố dữ liệu, metric và số hàng xóm cần tìm. Trong không gian chiều cao, cấu trúc cây có thể giảm hiệu quả và gần với brute force.
+> Không nên khẳng định độ phức tạp luôn là $O(\log N)$. Hiệu quả phụ thuộc số chiều, phân bố dữ liệu, metric và số hàng xóm cần tìm. Trong không gian chiều cao, cấu trúc cây có thể giảm hiệu quả và gần với brute force.
 
 ---
 
@@ -816,7 +818,7 @@ print(BallTree.valid_metrics)
 
 ### `query(X, k=1, return_distance=True, dualtree=False, breadth_first=False, sort_results=True)`
 
-Tìm \(k\) hàng xóm gần nhất.
+Tìm $k$ hàng xóm gần nhất.
 
 ```python
 distances, indices = tree.query(
@@ -839,7 +841,7 @@ distances, indices = tree.query(
 
 ### `query_radius(X, r, return_distance=False, count_only=False, sort_results=False)`
 
-Tìm tất cả điểm nằm trong bán kính \(r\).
+Tìm tất cả điểm nằm trong bán kính $r$.
 
 ```python
 indices = tree.query_radius(
@@ -864,14 +866,14 @@ indices = tree.query_radius(
 
 Công thức KDE tổng quát:
 
-$$ \widehat{f}(\mathbf{x}) = \frac{1}{N h^D} \sum_{i=1}^{N} K\left( \frac{\mathbf{x}-\mathbf{x}_i}{h} \right) $$
+$$ \hat{f}(\mathbf{x}) = \frac{1}{N h^D} \sum_{i=1}^{N} K\left( \frac{\mathbf{x}-\mathbf{x}_i}{h} \right) $$
 
 Trong đó:
 
-- \(N\): số mẫu;
-- \(D\): số chiều;
-- \(h\): bandwidth;
-- \(K\): kernel.
+- $N$: số mẫu;
+- $D$: số chiều;
+- $h$: bandwidth;
+- $K$: kernel.
 
 Ví dụ:
 
@@ -1000,9 +1002,9 @@ $$ d = R c $$
 
 Trong đó:
 
-- \(\varphi\): vĩ độ theo radian;
-- \(\lambda\): kinh độ theo radian;
-- \(R\): bán kính Trái Đất.
+- $\varphi$: vĩ độ theo radian;
+- $\lambda$: kinh độ theo radian;
+- $R$: bán kính Trái Đất.
 
 ```python
 import numpy as np
@@ -1070,11 +1072,11 @@ Với bài toán phân loại nhị phân:
 
 ### Công thức
 
-$$ \operatorname{Accuracy} = \frac{TP+TN}{TP+TN+FP+FN} $$
+$$ \mathrm{Accuracy} = \frac{TP+TN}{TP+TN+FP+FN} $$
 
 Với bài toán đa lớp:
 
-$$ \operatorname{Accuracy} = \frac{ \sum_{i=1}^{N} \mathbb{1}(y_i=\widehat{y}_i) }{N} $$
+$$ \mathrm{Accuracy} = \frac{ \sum_{i=1}^{N} \mathbf{1}(y_i=\hat{y}_i) }{N} $$
 
 ### Hàm
 
@@ -1114,7 +1116,7 @@ print(accuracy)
 
 ### Công thức
 
-$$ \operatorname{Precision} = \frac{TP}{TP+FP} $$
+$$ \mathrm{Precision} = \frac{TP}{TP+FP} $$
 
 Precision trả lời:
 
@@ -1154,7 +1156,7 @@ precision_score(
 
 ### Công thức
 
-$$ \operatorname{Recall} = \frac{TP}{TP+FN} $$
+$$ \mathrm{Recall} = \frac{TP}{TP+FN} $$
 
 Recall trả lời:
 
@@ -1184,7 +1186,7 @@ Các tham số có ý nghĩa tương tự `precision_score`.
 
 Specificity đo khả năng nhận diện đúng lớp Negative:
 
-$$ \operatorname{Specificity} = \frac{TN}{TN+FP} $$
+$$ \mathrm{Specificity} = \frac{TN}{TN+FP} $$
 
 Scikit-Learn không có hàm `specificity_score` độc lập phổ biến, nhưng trong bài toán nhị phân có thể tính bằng recall của lớp Negative:
 
@@ -1204,11 +1206,11 @@ specificity = recall_score(
 
 ### Công thức
 
-$$ \operatorname{F1} = 2 \cdot \frac{ \operatorname{Precision} \cdot \operatorname{Recall} }{ \operatorname{Precision} + \operatorname{Recall} } $$
+$$ \mathrm{F1} = 2 \cdot \frac{ \mathrm{Precision} \cdot \mathrm{Recall} }{ \mathrm{Precision} + \mathrm{Recall} } $$
 
 Công thức tương đương:
 
-$$ \operatorname{F1} = \frac{2TP}{2TP+FP+FN} $$
+$$ \mathrm{F1} = \frac{2TP}{2TP+FP+FN} $$
 
 ### Hàm
 
@@ -1234,11 +1236,11 @@ F1 hữu ích khi cần cân bằng Precision và Recall.
 
 F-Beta tổng quát hóa F1:
 
-$$ F_{\beta} = (1+\beta^2) \frac{ \operatorname{Precision} \cdot \operatorname{Recall} }{ \beta^2\operatorname{Precision} + \operatorname{Recall} } $$
+$$ F_{\beta} = (1+\beta^2) \frac{ \mathrm{Precision} \cdot \mathrm{Recall} }{ \beta^2\mathrm{Precision} + \mathrm{Recall} } $$
 
-- \(\beta=1\): F1-score;
-- \(\beta>1\): ưu tiên Recall;
-- \(\beta<1\): ưu tiên Precision.
+- $\beta=1$: F1-score;
+- $\beta>1$: ưu tiên Recall;
+- $\beta<1$: ưu tiên Precision.
 
 ```python
 from sklearn.metrics import fbeta_score
@@ -1266,15 +1268,15 @@ score = fbeta_score(
 
 ### Macro average
 
-Với \(C\) lớp:
+Với $C$ lớp:
 
-$$ \operatorname{MacroMetric} = \frac{1}{C} \sum_{c=1}^{C} \operatorname{Metric}_c $$
+$$ \mathrm{MacroMetric} = \frac{1}{C} \sum_{c=1}^{C} \mathrm{Metric}_c $$
 
 ### Weighted average
 
-$$ \operatorname{WeightedMetric} = \frac{ \sum_{c=1}^{C} n_c\operatorname{Metric}_c }{ \sum_{c=1}^{C}n_c } $$
+$$ \mathrm{WeightedMetric} = \frac{ \sum_{c=1}^{C} n_c\mathrm{Metric}_c }{ \sum_{c=1}^{C}n_c } $$
 
-Trong đó \(n_c\) là support của lớp \(c\).
+Trong đó $n_c$ là support của lớp $c$.
 
 ---
 
@@ -1282,7 +1284,7 @@ Trong đó \(n_c\) là support của lớp \(c\).
 
 Support là số mẫu thật thuộc mỗi lớp:
 
-$$ \operatorname{Support}_c = \sum_{i=1}^{N} \mathbb{1}(y_i=c) $$
+$$ \mathrm{Support}_c = \sum_{i=1}^{N} \mathbf{1}(y_i=c) $$
 
 Support không phải metric chất lượng, mà cho biết số lượng mẫu dùng để tính metric của lớp.
 
@@ -1535,15 +1537,33 @@ print(
 
 | Metric | Công thức |
 |---|---|
-| Accuracy | \(\frac{TP+TN}{TP+TN+FP+FN}\) |
-| Precision | \(\frac{TP}{TP+FP}\) |
-| Recall | \(\frac{TP}{TP+FN}\) |
-| Specificity | \(\frac{TN}{TN+FP}\) |
-| F1 | \(\frac{2TP}{2TP+FP+FN}\) |
+| Accuracy | $\frac{TP+TN}{TP+TN+FP+FN}$ |
+| Precision | $\frac{TP}{TP+FP}$ |
+| Recall | $\frac{TP}{TP+FN}$ |
+| Specificity | $\frac{TN}{TN+FP}$ |
+| F1 | $\frac{2TP}{2TP+FP+FN}$ |
 
 ---
 
-# 7. Tài liệu chính thức
+# 7. Các lỗi đã được sửa từ bản cũ
+
+1. Sửa các ký tự LaTeX bị hỏng như `	ext`, `
+rac`, `	imes`.
+2. Thay bằng cú pháp đúng: `\text`, `\frac`, `\times`.
+3. Bổ sung công thức WCSS, centroid và quy tắc gán cụm.
+4. Bổ sung Minkowski, Manhattan, Euclidean và Chebyshev.
+5. Bổ sung công thức voting của KNN.
+6. Bổ sung đầy đủ attribute của `KMeans`.
+7. Bổ sung đầy đủ attribute quan trọng của `KNeighborsClassifier`.
+8. Bổ sung method và attribute cho `KDTree` và `BallTree`.
+9. Bổ sung Specificity, F-Beta, Macro Average, Weighted Average và Support.
+10. Sửa nhận định độ phức tạp của KDTree/BallTree để tránh khẳng định sai rằng mọi truy vấn luôn có độ phức tạp $O(\log N)$.
+11. Loại bỏ tùy chọn cũ `"full"` khỏi phần `algorithm` của `KMeans`.
+12. Ghi rõ các hàm metric là function nên không có learned attributes.
+
+---
+
+# 8. Tài liệu chính thức
 
 - KMeans: <https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html>
 - KNeighborsClassifier: <https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html>
