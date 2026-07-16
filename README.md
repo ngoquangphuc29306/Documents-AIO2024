@@ -82,4 +82,7 @@
 
 | Topic | Notes | Notebooks |
 |---|---|---|
-| Introduction KNN | [PDF](Module3/notes/Introduction%20to%20KNN_v4.pdf) | [KNN](Module3/notebook/K-Nearest-Neighbors/Introduction_KNN.ipynb) |
+| Introduction KNN Part 1 | [PDF](Module3/notes/Introduction%20to%20KNN_v4.pdf) | [KNN](Module3/notebook/K-Nearest-Neighbors/Introduction_KNN.ipynb) |
+| Introduction KNN Part 2 | [PDF](Module3/notes/Introduction%20to%20KNN_v4.pdf) | [KNN](Module3/notebook/K-Nearest-Neighbors/KNN_Part_2.ipynb)
+| Introduction K-Means | [PDF](Module3/notes/M03W02-KMeans_v4.pdf) | [KMeans](Module3/notebook/K-Means/K_Mean.ipynb)
+| Overview KNN & KMean & Execrise | [PDF](Module3/notes/[Slide]-KNN-KMean_v2.pdf)<br>[Hand Writting KNN](Module3/notes/HandWritting_KNN.pdf)<br>[Hand Writting KMeans Clustering](Module3/notes/HandWritting_KMeansClustering.pdf) | [KNN Solution](Module3/notebook/Execrise/[Solution]_KNN.ipynb)<br>[KMean Solution](Module3/notebook/Execrise/[Solution]_K_mean.ipynb) |
