@@ -84,6 +84,18 @@
 | Topic | Notes | Notebooks |
 |---|---|---|
 | Introduction KNN Part 1 | [PDF](Module3/notes/Introduction%20to%20KNN_v4.pdf) | [KNN](Module3/notebook/K-Nearest-Neighbors/Introduction_KNN.ipynb) |
-| Introduction KNN Part 2 | [PDF](Module3/notes/Introduction%20to%20KNN_v4.pdf) | [KNN](Module3/notebook/K-Nearest-Neighbors/KNN_Part_2.ipynb)
+| Introduction KNN Part 2 | [PDF](Module3/notes/Introduction%20to%20KNN_v4.pdf) | [KNN](Module3/notebook/K-Nearest-Neighbors/KNN_Part_2.ipynb) |
+
+### K-Means Clustering
+| Topic | Notes | Notebooks |
+|---|---|---|
 | Introduction K-Means | [PDF](Module3/notes/M03W02-KMeans_v4.pdf) | [KMeans](Module3/notebook/K-Means/K_Mean.ipynb)
 | Overview KNN & KMean & Execrise | [PDF](Module3/notes/[Slide]-KNN-KMean_v2.pdf)<br>[Hand Writting KNN](Module3/notes/HandWritting_KNN.pdf)<br>[Hand Writting KMeans Clustering](Module3/notes/HandWritting_KMeansClustering.pdf)<br>[Execrise](Module3/notes/Description.pdf) | [KNN Solution](Module3/notebook/Execrise/[Solution]_KNN.ipynb)<br>[KMean Solution](Module3/notebook/Execrise/[Solution]_K_mean.ipynb) |
+
+### Decision Tree
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Introduction Dtree | [PDF](Module3/notes/Decision_Tree/Extra_Decision_Tree_v2.pdf) | [Dtree](Module3/notebook/Decision-Tree/Introduce_DecisionTree.ipynb) |
+| Dtree Classification | [PDF](Module3/notes/Decision_Tree/DecisionTree_Classification_AIO2024.pdf) | [Classification](Module3/notebook/Decision-Tree/DecisionTree_Classification.ipynb) |
+| Dtree Regression | [PDF](Module3/notes/Decision_Tree/DecisionTree_Regression_AIO2024.pdf) | [Regression 1](Module3/notebook/Decision-Tree/Decision_Tree_Regressor.ipynb)<br>[Regression 2](Module3/notebook/Decision-Tree/Decision_Tree_Regression.ipynb)<br>[Cross-Validation](Module3/notebook/Decision-Tree/DecisionTreeRegression_CrossValidation.ipynb) |
+| Execrise Dtree | [PDF](Module3/notes/Decision_Tree/[Slide]-Decision-Tree_v2.pdf)<br>[EX](Module3/notes/Decision_Tree/[Description]-Decision-Tree.pdf) | [Execrise](Module3/notebook/Decision-Tree/Execrise_DecisionTree.ipynb) |
