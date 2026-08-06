@@ -99,3 +99,16 @@
 | Dtree Classification | [PDF](Module3/notes/Decision_Tree/DecisionTree_Classification_AIO2024.pdf) | [Classification](Module3/notebook/Decision-Tree/DecisionTree_Classification.ipynb) |
 | Dtree Regression | [PDF](Module3/notes/Decision_Tree/DecisionTree_Regression_AIO2024.pdf) | [Regression 1](Module3/notebook/Decision-Tree/Decision_Tree_Regressor.ipynb)<br>[Regression 2](Module3/notebook/Decision-Tree/Decision_Tree_Regression.ipynb)<br>[Cross-Validation](Module3/notebook/Decision-Tree/DecisionTreeRegression_CrossValidation.ipynb) |
 | Execrise Dtree | [PDF](Module3/notes/Decision_Tree/[Slide]-Decision-Tree_v2.pdf)<br>[EX](Module3/notes/Decision_Tree/[Description]-Decision-Tree.pdf) | [Execrise](Module3/notebook/Decision-Tree/Execrise_DecisionTree.ipynb) |
+
+### Ensemble Learning
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Extra Random Forest | [PDF](Module3/notes/Ensemble_Learning/Random%20Forest_AIO2024.pdf) | [Rf](Module3/notebook/Ensemble_Learning/Introduce_RandomForest.ipynb) |
+| Main Random Forest | [PDF](Module3/notes/Ensemble_Learning/[Slide]-Random-Forest_v2.pdf) | [TimeSeries](Module3/notebook/Ensemble_Learning/Time_series_randomforest.ipynb)<br>[Simple Overfitting](Module3/notebook/Ensemble_Learning/Simple_OverFitting_AIO2024.ipynb) |
+| AdaBoost & Gradient Boost | [PDF](Module3/notes/Ensemble_Learning/Adaboost_AIO2024.pdf) | [Ada](Module3/notebook/Ensemble_Learning/Adaboost_Theory.ipynb)<br>[Gradient](Module3/notebook/Ensemble_Learning/Adaboost_GradientBoost.ipynb) |
+| Execrise Ensemble Learning | [Description](Module3/notes/Ensemble_Learning/[Description]-Ensemble-Learning.pdf)<br>[Slide](Module3/notes/Ensemble_Learning/[Slide]-Ensemble-Learning.pdf) | [Ex](Module3/notebook/Ensemble_Learning/Ex_EnsembleLearning.ipynb) |
+| XGBoost | [PDF](Module3/notes/Ensemble_Learning/XGBoost_v3.pdf) | [Note](Module3/notebook/Ensemble_Learning/XGBoost.ipynb) |
+| Ex XGBoost | [Slide](Module3/notes/Ensemble_Learning/XGBoost_TA_v2.pdf)<br>[Description](Module3/notes/Ensemble_Learning/Ex_XGBoost.pdf) | [TimeSeries](Module3/notebook/Ensemble_Learning/XGBoost_with_Time_Series_Classification.ipynb)<br>[Ex](Module3/notebook/Ensemble_Learning/Ex_XGBoost.ipynb) |
+
+### Support Vector Machine
+| Support Vector Machine | [PDF](Module3/notes/SVM/AIO2024_Module03_Extra_SVM_240914.pdf) | [Classifier](Module3/notebook/SVM/SVM_Classification.ipynb)<br>[Regressor](Module3/notebook/SVM/SVM_Regression.ipynb) | 
