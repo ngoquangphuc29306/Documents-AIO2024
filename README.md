@@ -111,4 +111,6 @@
 | Ex XGBoost | [Slide](Module3/notes/Ensemble_Learning/XGBoost_TA_v2.pdf)<br>[Description](Module3/notes/Ensemble_Learning/Ex_XGBoost.pdf) | [TimeSeries](Module3/notebook/Ensemble_Learning/XGBoost_with_Time_Series_Classification.ipynb)<br>[Ex](Module3/notebook/Ensemble_Learning/Ex_XGBoost.ipynb) |
 
 ### Support Vector Machine
+| Topic | Notes | Notebooks |
+|---|---|---|
 | Support Vector Machine | [PDF](Module3/notes/SVM/AIO2024_Module03_Extra_SVM_240914.pdf) | [Classifier](Module3/notebook/SVM/SVM_Classification.ipynb)<br>[Regressor](Module3/notebook/SVM/SVM_Regression.ipynb) | 
