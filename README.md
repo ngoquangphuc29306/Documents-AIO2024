@@ -114,3 +114,9 @@
 | Topic | Notes | Notebooks |
 |---|---|---|
 | Support Vector Machine | [PDF](Module3/notes/SVM/AIO2024_Module03_Extra_SVM_240914.pdf) | [Classifier](Module3/notebook/SVM/SVM_Classification.ipynb)<br>[Regressor](Module3/notebook/SVM/SVM_Regression.ipynb) | 
+
+### Project
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Sentiment Analysis | [Description](Module3/project/Sentiment-Analysis/Description/[Description]-Sentiment-Analysis.pdf)<br>[Slide](Module3/project/Sentiment-Analysis/Description/[Slide]-Sentiment-Analysis_v3.pdf)<br>[Rubric](Module3/project/Sentiment-Analysis/Description/[Rubric]-Sentiment-Analysis.pdf) | [Notebook](Module3/project/Sentiment-Analysis/Sentiment_Analysis.ipynb) |
+| Heart Dissease Prediction | [Description](Module3/project/TabularData_TreeBassed_Project_HeartDisseasePrediction/Description/Heart%20Disease%20Prediction.pdf)<br>[Slide](Module3/project/TabularData_TreeBassed_Project_HeartDisseasePrediction/Description/M03W05_xgboost_project.pdf)<br>[Rubric](Module3/project/TabularData_TreeBassed_Project_HeartDisseasePrediction/Description/Rubric.pdf) | [Notebook](Module3/project/TabularData_TreeBassed_Project_HeartDisseasePrediction/Untitled2.ipynb) |
