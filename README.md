@@ -118,3 +118,17 @@
 |---|---|---|
 | Sentiment Analysis | [Description](Module3/project/Sentiment-Analysis/Description/[Description]-Sentiment-Analysis.pdf)<br>[Slide](Module3/project/Sentiment-Analysis/Description/[Slide]-Sentiment-Analysis_v3.pdf)<br>[Rubric](Module3/project/Sentiment-Analysis/Description/[Rubric]-Sentiment-Analysis.pdf) | [Notebook](Module3/project/Sentiment-Analysis/Sentiment_Analysis.ipynb) |
 | Heart Dissease Prediction | [Description](Module3/project/TabularData_TreeBassed_Project_HeartDisseasePrediction/Description/Heart%20Disease%20Prediction.pdf)<br>[Slide](Module3/project/TabularData_TreeBassed_Project_HeartDisseasePrediction/Description/M03W05_xgboost_project.pdf)<br>[Rubric](Module3/project/TabularData_TreeBassed_Project_HeartDisseasePrediction/Description/Rubric.pdf) | [Notebook](Module3/project/TabularData_TreeBassed_Project_HeartDisseasePrediction/Untitled2.ipynb) |
+
+
+## Module 4
+
+### Week 1
+
+#### Simple Linear Regression
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Basic Linear Regression | [PDF](Module4/Week_1/Basic_Linear_Regresssion/Extra_Simple_Linear_Regression_v2.pdf) | [Notebook](Module4/Week_1/Basic_Linear_Regresssion/Simple_LinearRegression.ipynb) |
+| Optimization for Linear Regression | [PDF](Module4/Week_1/Optimization/From%20Optimization%20to%20Linear%20Regression%20_%20v3.pdf) | [CODE](Module4/Week_1/Optimization/code/) |
+| Linear Regression (mini-batch) | [PDF](Module4/Week_1/LinearRegression/LinearRegression_Fri_v3.pdf) | [CODE](Module4/Week_1/Optimization/code/) |
+| Execrise | [SLIDE](Module4/Week_1/TA_EXECRISE/MO04_Linear_Regression_Slide.pdf)<br>[DECRIPTION](Module4/Week_1/TA_EXECRISE/M04W1_Excercise.pdf) | [CODE](Module4/Week_1/TA_EXECRISE/M04W1_Execrise.ipynb) |
