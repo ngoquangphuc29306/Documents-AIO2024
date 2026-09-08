@@ -132,3 +132,66 @@
 | Optimization for Linear Regression | [PDF](Module4/Week_1/Optimization/From%20Optimization%20to%20Linear%20Regression%20_%20v3.pdf) | [CODE](Module4/Week_1/Optimization/code/) |
 | Linear Regression (mini-batch) | [PDF](Module4/Week_1/LinearRegression/LinearRegression_Fri_v3.pdf) | [CODE](Module4/Week_1/Optimization/code/) |
 | Execrise | [SLIDE](Module4/Week_1/TA_EXECRISE/MO04_Linear_Regression_Slide.pdf)<br>[DECRIPTION](Module4/Week_1/TA_EXECRISE/M04W1_Excercise.pdf) | [CODE](Module4/Week_1/TA_EXECRISE/M04W1_Execrise.ipynb) |
+
+### Week 2
+
+#### Loss Function & Vectorization
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Advanced LR - Loss Functions | [PDF](Module4/Week_2/01-Loss_Function/AdvancedLR%20-%20Loss%20Functions_v4.pdf) | [One Sample - MSE](Module4/Week_2/01-Loss_Function/code/1.1\)%20Data%20-%20One%20Sample%20-%20MSE.ipynb)<br>[One Sample - MAE](Module4/Week_2/01-Loss_Function/code/1.2\)%20Data%20-%20One%20Sample%20-%20MAE.ipynb)<br>[One Sample - HuberLoss](Module4/Week_2/01-Loss_Function/code/1.3\)%20Data%20-%20One%20Sample%20-%20HuberLoss.ipynb)<br>[N Sample - MSE batch](Module4/Week_2/01-Loss_Function/code/2.1\)%20Data%20-%20N%20Sample%20-%20MSE%20-%20batch.ipynb)<br>[N Sample - MAE batch](Module4/Week_2/01-Loss_Function/code/2.2\)%20Data%20-%20N%20Sample%20-%20MAE%20-%20batch.ipynb)<br>[N Sample - HuberLoss batch](Module4/Week_2/01-Loss_Function/code/2.3\)%20Data%20-%20N%20Sample%20-%20HuberLoss%20-%20batch.ipynb)<br>[Outliers - MSE](Module4/Week_2/01-Loss_Function/code/3.1\)%20Data%20Outliers%20-%20MSE.ipynb)<br>[Outliers - MAE](Module4/Week_2/01-Loss_Function/code/3.2\)%20Data%20Outliers%20-%20MAE.ipynb)<br>[Outliers - MSE batch](Module4/Week_2/01-Loss_Function/code/4.1\)%20Data%20Outliers%20-%20MSE%20-%20batch.ipynb)<br>[Outliers - MAE batch](Module4/Week_2/01-Loss_Function/code/4.2\)%20Data%20Outliers%20-%20MAE%20-%20batch.ipynb)<br>[Advertising Stochastic](Module4/Week_2/01-Loss_Function/code/5.Advertising_Stochastic_DataScaling.ipynb) |
+| Vectorized Linear Regression (Extra) | [PDF](Module4/Week_2/02-Vectorization_Linear_Regression/Extra_Vectorized_Linear_Regression_v2.pdf) | [Notebook](Module4/Week_2/02-Vectorization_Linear_Regression/Extra_Vectorized_Linear_Regression.ipynb) |
+| Vectorization for Linear Regression | [PDF](<Module4/Week_2/04-Vectorization_Linear_Regression_2/Vectorization for Linear Regression_v5.pdf>) | [OneSample](Module4/Week_2/04-Vectorization_Linear_Regression_2/code/1.OneSample-Vectorization.ipynb)<br>[mSamples 1](Module4/Week_2/04-Vectorization_Linear_Regression_2/code/2.1.mSamples-Vectorization.ipynb)<br>[mSamples 2](Module4/Week_2/04-Vectorization_Linear_Regression_2/code/2.2.mSamples-Vectorization.ipynb)<br>[NSamples 1](Module4/Week_2/04-Vectorization_Linear_Regression_2/code/3.1.NSamples-Vectorization.ipynb)<br>[NSamples 2](Module4/Week_2/04-Vectorization_Linear_Regression_2/code/3.2.NSamples-Vectorization.ipynb)<br>[Advertising 1](Module4/Week_2/04-Vectorization_Linear_Regression_2/code/5.1.Advertising_OneSample_1.ipynb)<br>[Advertising 2](Module4/Week_2/04-Vectorization_Linear_Regression_2/code/5.2.Advertising_OneSample_2.ipynb) |
+
+#### FastAPI
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Introduction FastAPI | [PDF](Module4/Week_2/03-FastAPI/Thursday/AIO2024_FastAPI_v2.pdf) | [CODE](Module4/Week_2/03-FastAPI/Thursday/code/) |
+
+#### Non-Linear Regression
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Non-Linear Regression | [Slide](Module4/Week_2/05-Non_Linear/Saturday/[Slide]-Non-linear-Regression.pdf) | [Non-Linear Salaries](Module4/Week_2/05-Non_Linear/Saturday/[colab]-Non-Linear-Regression-Salaries.ipynb)<br>[Multivariate Non-Linear Fish](Module4/Week_2/05-Non_Linear/Saturday/[colab]-Multivariate-Non-Linear-Regresion-Fish.ipynb) |
+
+#### Execrise
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Execrise Linear Regression | [Slide](Module4/Week_2/06-TA-Execrise/Description/[Slide]-Linear-Regression.pdf)<br>[Description](Module4/Week_2/06-TA-Execrise/Description/[Description]-Linear-Regression.pdf)<br>[Rubric](Module4/Week_2/06-TA-Execrise/Description/[Rubric]-Linear-Regression.pdf) | [Execrise](Module4/Week_2/06-TA-Execrise/Solution/Ex_Linear_Regression.ipynb)<br>[Execrise Bitcoin](Module4/Week_2/06-TA-Execrise/Solution/Ex_Linear_Regression_Bitcoin.ipynb) |
+
+### Week 3
+
+#### Genetic Algorithm & Optimization
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Basic Genetic Algorithm | [PDF](Module4/Week_3/01-Basic_Genetic_Algorithm/Genetic_Algorithm_v2.pdf) | [Notebook](Module4/Week_3/01-Basic_Genetic_Algorithm/Basic_Genetic_Algorithm.ipynb) |
+| Randomness and its Application to Optimization | [PDF](<Module4/Week_3/02-Randomness_and_its_application_to_optimization/Randomness and its Applications to Optimization_v2.pdf>) | [Central Limit Theorem](Module4/Week_3/02-Randomness_and_its_application_to_optimization/code/0.CentralLimitTheorem.ipynb)<br>[Naive Random Search](Module4/Week_3/02-Randomness_and_its_application_to_optimization/code/1.NaiveRandomSearch.ipynb)<br>[No Inheritance](Module4/Week_3/02-Randomness_and_its_application_to_optimization/code/2.Problem1_NoInheritance.ipynb)<br>[Inheritance No Selection](Module4/Week_3/02-Randomness_and_its_application_to_optimization/code/3.Problem2_Inheritance_NoSelection.ipynb)<br>[Exchange Information](Module4/Week_3/02-Randomness_and_its_application_to_optimization/code/4.ExchangeInformation_Inheritance_Selection.ipynb)<br>[More Exploration](Module4/Week_3/02-Randomness_and_its_application_to_optimization/code/5.MoreExploration.ipynb) |
+| GA Optimization for Linear Regression | [PDF](<Module4/Week_3/03-Genetic Algorithm_Optimization_Linear_Regression/Genetic Algorithm_Optimization_Linear_Regression_v2.pdf>) | [GA Optimization](Module4/Week_3/03-Genetic%20Algorithm_Optimization_Linear_Regression/Genetic_Algorithm_Optimization.ipynb)<br>[GA OneMax](Module4/Week_3/03-Genetic%20Algorithm_Optimization_Linear_Regression/code/2.GA_OneMax.ipynb)<br>[GA Sphere](Module4/Week_3/03-Genetic%20Algorithm_Optimization_Linear_Regression/code/3.GA_Sphere.ipynb)<br>[GA Linear Regression](Module4/Week_3/03-Genetic%20Algorithm_Optimization_Linear_Regression/code/4.GA_LinearRegression.ipynb)<br>[Salesman Travelling](Module4/Week_3/03-Genetic%20Algorithm_Optimization_Linear_Regression/code/5.Salesman_Travelling.ipynb)<br>[Knapsack](Module4/Week_3/03-Genetic%20Algorithm_Optimization_Linear_Regression/code/6.Knapsack.ipynb) |
+
+#### MLOps & Docker
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| MLOps Docker | [PDF](Module4/Week_3/04-MLOps_Docker/AIO2024_MLOps_Docker.pdf) | None |
+
+#### Loss Function for Regression
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Regression Loss Functions | [PDF](Module4/Week_3/05-Loss_Function_Regression/Regression_Loss_v2.pdf) | [MBE](Module4/Week_3/05-Loss_Function_Regression/Code/1_Advertising_Batch_DataScaling_MBE.ipynb)<br>[MSE](Module4/Week_3/05-Loss_Function_Regression/Code/2_Advertising_Batch_DataScaling_MSE.ipynb)<br>[MAE](Module4/Week_3/05-Loss_Function_Regression/Code/3_Advertising_Batch_DataScaling_MAE.ipynb)<br>[Huber](Module4/Week_3/05-Loss_Function_Regression/Code/4_Advertising_Batch_DataScaling_Huber.ipynb)<br>[Smooth L1](Module4/Week_3/05-Loss_Function_Regression/Code/5_Advertising_Batch_DataScaling_SmoothL1.ipynb)<br>[Log-Cosh](Module4/Week_3/05-Loss_Function_Regression/Code/6_Advertising_Batch_DataScaling_Log-Cosh.ipynb)<br>[RMSE](Module4/Week_3/05-Loss_Function_Regression/Code/7_Advertising_Batch_DataScaling_RMSE.ipynb)<br>[RMSLE](Module4/Week_3/05-Loss_Function_Regression/Code/8_Advertising_Batch_DataScaling_RMSLE.ipynb) |
+
+#### Execrise
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Execrise Genetic Algorithm | [Slide](Module4/Week_3/06-TA_Execrise/M04-Sunday_Genetic_Excercise_v2.pdf)<br>[Description](Module4/Week_3/06-TA_Execrise/Excercise.pdf)<br>[Rubric](Module4/Week_3/06-TA_Execrise/Rubric.pdf) | [GA Advertising Problem](Module4/Week_3/06-TA_Execrise/GA_Advertising_Problem.ipynb) |
+
+### Week 4 - Project
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Sales Prediction (LR & PR) | [Description](<Module4/Week_4 - Project/01-Tabular_Data_Sales_Prediction/Description/[Description]-Sales-Prediction.pdf>)<br>[Slide](<Module4/Week_4 - Project/01-Tabular_Data_Sales_Prediction/Description/[Slide]-Sales-Prediction.pdf>) | [Notebook](<Module4/Week_4 - Project/01-Tabular_Data_Sales_Prediction/Description/Sales_Prediction_LR_PR.ipynb>) |
+| Multi-Objective Evolutionary Algorithm | [PDF](<Module4/Week_4 - Project/02-Multi-Objective-Evolutionary_Algorithm/MOEA_v2.pdf>) | None |
