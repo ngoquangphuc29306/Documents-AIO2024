@@ -195,3 +195,26 @@
 |---|---|---|
 | Sales Prediction (LR & PR) | [Description](<Module4/Week_4 - Project/01-Tabular_Data_Sales_Prediction/Description/[Description]-Sales-Prediction.pdf>)<br>[Slide](<Module4/Week_4 - Project/01-Tabular_Data_Sales_Prediction/Description/[Slide]-Sales-Prediction.pdf>) | [Notebook](<Module4/Week_4 - Project/01-Tabular_Data_Sales_Prediction/Description/Sales_Prediction_LR_PR.ipynb>) |
 | Multi-Objective Evolutionary Algorithm | [PDF](<Module4/Week_4 - Project/02-Multi-Objective-Evolutionary_Algorithm/MOEA_v2.pdf>) | None |
+
+## Module 5
+
+### Logistic Regression
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Basic Logistic Regression | [Slide](<Module5/01 - Basic_Logistic_Regression/[Slide-V3]-Logistic-Regression.pdf>) | [Logistic Regression](<Module5/01 - Basic_Logistic_Regression/[colab]-Logistic-Regression.ipynb>) |
+| From Linear Regression to Logistic Regression | [PDF](<Module5/02 - Linear_Regression_to_Logistic_regression/From Linear Regression to Logistic Regression_v6.pdf>) | [1 Sample MSE](<Module5/02 - Linear_Regression_to_Logistic_regression/Logiscitc_Regression_1Sample_MSE.ipynb>)<br>[1 Sample BCE 1D](<Module5/02 - Linear_Regression_to_Logistic_regression/Logistic_Regression_1sample_BCE_1D.ipynb>) |
+| Advanced Logistic Regression | [PDF](<Module5/04 - Advanced_Logistic_Regression/Advanced Logistic Regression_v3.pdf>) | None |
+| Multi-label Classification | [PDF](<Module5/05 - Multi-label_Classification/Multi-label classification_v2.pdf>) | None |
+
+### Speedup Machine Learning Inference
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Speedup Machine Learning Inference | [PDF](<Module5/03 - Speedup_Machine_Learning_Inference/Speedup Machine Learning Inference_v2.pdf>) | [Case Study 2](<Module5/03 - Speedup_Machine_Learning_Inference/Speedup Machine Learning Inference/case_study_2.ipynb>)<br>[Case Study 2b](<Module5/03 - Speedup_Machine_Learning_Inference/Speedup Machine Learning Inference/case_study_2b.ipynb>)<br>[Case Study 3](<Module5/03 - Speedup_Machine_Learning_Inference/Speedup Machine Learning Inference/case_study_3.ipynb>) |
+
+### Execrise
+
+| Topic | Notes | Notebooks |
+|---|---|---|
+| Execrise Logistic Regression | [Slide](<Module5/06 - TA-Execrise/Description/[Slide]-Exercise-LogisticRegression_v3.pdf>)<br>[Description](<Module5/06 - TA-Execrise/Description/AIO2024_Module05_Exercise_Logistic_Regression_Description.pdf>)<br>[Rubric](<Module5/06 - TA-Execrise/Description/AIO2024_Module05_Exercise_Logistic_Regression_Rubric.pdf>) | [Titanic Survival Prediction](<Module5/06 - TA-Execrise/Description/Titanic_Survival_Prediction.ipynb>)<br>[Twitter Sentiment Analysis](<Module5/06 - TA-Execrise/Description/Twitter_Sentiment_Analysis.ipynb>) |
